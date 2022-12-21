@@ -62,7 +62,7 @@ export default function Body(props) {
           method: 'POST',
           url: 'https://anilist-graphql.p.rapidapi.com/',
           headers: {
-            'X-RapidAPI-Key': process.env.REACT_APP_API_KEY,
+            'X-RapidAPI-Key':'f40520f1bfmsh51f1cedbc986419p16d9b1jsn55004c8d4c0f',
             'X-RapidAPI-Host': 'anilist-graphql.p.rapidapi.com'
           },
           data:{
