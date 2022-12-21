@@ -138,7 +138,7 @@ export default function Body(props) {
                <div className=' justify-content-center  '> 
                <ul className='prevnxt '>
                <button className='btn btn-primary prev' disabled={Page<2} onClick={HandlePrev}>Prev</button>
-              {/* <>Page no:{Page}</> */}
+              <>{Page}</>
                 <button className='btn btn-primary prev' onClick={HandleNext}>Next</button>
                </ul>
                
